@@ -1,0 +1,180 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-Bold";
+}
+
+
+p{
+  color: #8f8f8f;
+  font-weight: 500;
+}
+/* Headings */
+.heading{
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* SECTIONS */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.colured-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* NAV-BAR SECTION */
+
+#navbarTogglerDemo01{
+  position: absolute;
+  margin-left: 70%;
+}
+
+.nav-item{
+  padding-left: 0 20px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+/* TITLE-SECTION */
+
+#tittle .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.dog{
+  width: 25%;
+  transform:rotate(25deg);
+  position: absolute;
+  margin-left: : 50px;
+
+}
+
+/* FEATURES */
+
+#features{
+  background-color: #fff;
+  position: relative;
+  z-index:1;
+}
+
+.feature-box{
+  padding: 5%
+}
+
+.feature-title{
+  font-size: 1.5rem
+  font-weight: bold;
+}
+
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+/* PRESS */
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.logo{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+
+/* TESTIMONIALS */
+
+#testimonials{
+
+  background-color: #ef8172;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height:1.5;
+  font-weight: 500;
+}
+
+/* PRICING  */
+
+#pricing{
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height:1.5;
+  font-weight: 500;
+}
+
+.btn-price{
+  width:100%;
+  padding: 3% 2%;
+}
+
+
+.social{
+  margin: 20px 10px;
+}
+
+@media(max-width:1028px){
+
+  #title{
+    text-align: center;
+  }
+  .dog{
+    position: static;
+    transform:rotate(0);
+    width: 50%;
+  }
+}
